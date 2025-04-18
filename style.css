@@ -2,7 +2,6 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-
 }
 .container{
     display: flex;
@@ -12,7 +11,6 @@
     margin-top: 10px;
     gap: 20px;
 }
-
 .row{
     display: flex;
 
