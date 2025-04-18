@@ -19,7 +19,6 @@ function checkWinner() {
     document.write(
       `Winner is ${player} <button onClick="location.reload()">Restart</button>`
     );
-    pageReload();
   }
 
   if (!array.some((e) => e === null)) {
@@ -27,6 +26,8 @@ function checkWinner() {
     return;
   }
 }
+
+
 
 function blockClick(el) {
   const id = Number(el.id);
